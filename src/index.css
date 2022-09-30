@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+
+:root {
+    --textdark: #1C3879;
+    --textlight: #607EAA;
+    --backgrounddark: #EAE3D2;
+    --backgroundlight: #F9F5EB;
+}
+
+body {
+    margin: 0;
+    background-color: var(--backgroundlight);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
